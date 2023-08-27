@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Play:wght@400;700&family=Roboto+Slab&family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&family=Play:wght@400;700&family=Roboto+Slab&family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Play:wght@400;700&family=Roboto+Slab&family=Spline+Sans+Mono&display=swap');
+body{
+  color: #f4f4f4;
+  background-image: url("images/wave-haikei.svg");
+  background-size: 100%;                  
+  background-repeat:   no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  padding: 0;
+  margin: 0;
+  
+}
+.App {
+  font-family: "Inter";
+}
+a{
+  text-decoration: none;
+  color: #f4f4f4;
+  border-radius: 8px;
+  padding: 0.3rem 0.3rem;
+}
+.menu-all{
+  padding: 0.5rem 0.5rem;
+}
+.menu-all :hover{
+  color: #38d9a9;
+  transition-delay:0.08s;
+}
+.join-us{
+  background-color: rgb(151, 151, 151);
+  
+}
+.menu{
+  padding: 1rem 1rem;
+  text-align: right;
+  margin-right: 17rem; /* 50% moblie? */
+}
+.menu a{
+  max-width: 125px; 
+  width: 100%;
+  margin: 0 auto;
+  font-size: 17px; 
+  display: inline-block;
+  padding: 8px;
+  margin-right: 2px;
+  text-align: center;
+}
+
+.main-content-all{
+  margin-top: 5.5rem;
+  padding: 1rem 1rem;
+}
+.main-content{
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.content-text{
+  padding: 2rem 2rem;
+  width: 70%;
+  
+  display: inline-flex;
+}
+.content-text h1{
+  font-family: "Montserrat";
+  font-size: 50px;
+  line-height: 1.3;
+  
+  text-align: left;
+}
+.content-text p{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.45;
+}
+.text{
+  padding: 2rem 2rem;
+  align-items: center;
+  margin: auto;
+}
+.buttons-two-conteiner{
+  margin-top: 3rem;
+  text-align: center;
+}
+.button-two{
+  display: inline-block;
+  padding: 0.4rem 0.4em;
+  border-radius: 10px;
+  background-color: rgb(151, 151, 151);
+  margin-left: 0.5rem;
+  font-size: 78%;
+}
+.join-us:hover{
+  color: black;
+  transition-delay:0.05s;
+  background-color: #38d9a9;  
+}
+.button-two:hover{
+  color: black;
+  transition-delay:0.05s;
+  background-color: #38d9a9;  
+}
+.containerTechs a:hover{
+  opacity: 0.6;
+  transition-delay:0.05s;
+}
+.containerTechs2 a:hover{
+  opacity: 0.6;
+  transition-delay:0.05s;
+}
+.yt-all h3:hover{
+  opacity: 0.4;
+  transition-delay:0.05s;
+  text-decoration: underline;
+}
+.aqua-color{
+  color: #38d9a9;
+}
+
+.icon-title{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.RoadmapsAll{
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  display: flex;
+}
+.roadmapss-container p{
+  padding: 1rem 1rem;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.containerTechs { 
+  padding: 2rem 2rem;
+  margin:  auto;
+  width: 350px;
+  font-size: 17px;
+}
+.containerTechs2{
+  padding: 2rem 2rem;
+  margin: auto;
+  width: 350px;
+  font-size: 17px;
+}
+
+.containerTechs2 a{
+  background-color: #005d6e;
+}
+.containerTechs a{
+  background-color: #005d6e;
+}
+.roadmapss-container{
+
+  margin-top: 8rem;
+}
+.roadmapss{
+  font-size: 50px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-right: 80rem;
+  padding: 1rem 1rem;
+}
+
+.yt-all{
+  margin-top: 1.7rem;
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.containerYT {
+  padding: 1rem 1rem;
+  margin: auto;
+  text-align: center;
+
+}
+.containerYT h3{
+  font-family: "Montserrat";
+  text-align: justify;
+  margin-bottom: 2.1rem;
+}
+
+.deploy-container{
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  
+}
+.deploy-text{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 50px;
+}
+
+.DeployPhotos {
+  margin-top: 2rem;
+  padding: 2rem 2rem;
+  display: flex;
+}
+.OnePhoto {
+  padding: 1rem 1rem;
+  gap: 5rem;
+  margin: auto;
+}
+.OnePhoto:hover{
+  opacity: 0.6;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  background-color: #081e19;
+}
+.flag
+{
+  margin-left: 0.25rem;
+}
+
+
+
+.menu a{
+	-webkit-animation: slide-in-blurred-top 0.8s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.25s both;
+	        animation: slide-in-blurred-top 0.8s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.25s both;
+}
+
+@-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  body{
+    background-color: #121212;
+  }
+  .menu-all{
+    text-align: center;
+  }
+  .menu{
+    text-align: center;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: inline-block;
+  }
+  .menu a{
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .main-content-all{
+    margin-top: 3rem;
+  }
+  .logo{
+    width: 280px;
+  }
+  .content-text{
+    display: table-row;
+    margin: auto;
+  }
+  .content-text h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .content-text p{
+
+    text-align: justify;
+  }
+  .text{
+    margin: auto;
+  }
+ .roadmapss{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 0rem;
+    padding: 0rem 0rem;
+  }
+  .RoadmapsAll{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    display: contents;
+  }
+  .containerTechs{
+    padding: 1rem 1rem;
+    margin: auto;
+  }
+  .containerTechs2{
+    padding: 1rem 1rem;
+    margin: auto;
+  }
+  .yt-all{
+    display: contents;
+  }
+  .containerYT{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .yt-video{
+    height: auto;
+    width: auto
+  }
+  .deploy-text{
+    font-size: 40px;
+  }
+  .DeployPhotos{
+    flex-direction: column;
+    margin-top: 0.6rem;
+  }
+  .OnePhoto{
+    width: 70%;
+    margin-top: 1rem;
+  }
+}  
