@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/example-website1/static/css/main.262a4843.css",
+    "main.css": "/example-website1/static/css/main.d4f0d37f.css",
     "main.js": "/example-website1/static/js/main.c8488a49.js",
     "static/media/cd-logo.png": "/example-website1/static/media/cd-logo.11976fb231e3c4f96a1d.png",
     "static/media/united-states-flag-icon.svg": "/example-website1/static/media/united-states-flag-icon.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
@@ -8,11 +8,11 @@
     "static/media/poland-flag-icon.svg": "/example-website1/static/media/poland-flag-icon.8f1f9b3962119702b1fd3b82ab9d8bb5.svg",
     "static/media/wave-haikei.svg": "/example-website1/static/media/wave-haikei.c64df6d4fdf7a17e969f.svg",
     "index.html": "/example-website1/index.html",
-    "main.262a4843.css.map": "/example-website1/static/css/main.262a4843.css.map",
+    "main.d4f0d37f.css.map": "/example-website1/static/css/main.d4f0d37f.css.map",
     "main.c8488a49.js.map": "/example-website1/static/js/main.c8488a49.js.map"
   },
   "entrypoints": [
-    "static/css/main.262a4843.css",
+    "static/css/main.d4f0d37f.css",
     "static/js/main.c8488a49.js"
   ]
 }
